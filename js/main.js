@@ -1,12 +1,16 @@
 // ------------------------ Greetings --------------------------------
-var time = new Date().getHours();
+var hour = new Date().getHours();
+var minute = new Date().getMinutes();
+var time = hour + "." + minute;
+console.log(time);
   if(time >= 4 && time < 12){
       document.getElementById("greeting").innerHTML = "Good Morning";
+      console.log('hii')
   }
-  if(time >= 12 && time <= 18){
+  if(time >= 12 && time <= 16){
     document.getElementById("greeting").innerHTML = "Good Afternoon";
-}
-  else{
+  }
+  if(time >= 16 && time < 4){
       document.getElementById("greeting").innerHTML = "Good Evening";
   }
 
