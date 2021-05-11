@@ -459,7 +459,7 @@ home section
     padding: 0;
     font-family: consolas;
     letter-spacing: 3px;
-    animation: type 10s steps(10) infinite;
+    animation: type 10s infinite;
     overflow: hidden;
     white-space: nowrap;
     border-right: 3px solid var(--text-black-900);
