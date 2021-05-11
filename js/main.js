@@ -1,6 +1,6 @@
 // ------------------------ Greetings --------------------------------
 var time = new Date().getHours();
-  if(time >= 6 && time < 12){
+  if(time >= 4 && time < 12){
       document.getElementById("greeting").innerHTML = "Good Morning";
   }
   if(time >= 12 && time <= 18){
