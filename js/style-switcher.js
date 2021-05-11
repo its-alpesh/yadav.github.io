@@ -29,8 +29,10 @@ function thememode(){
         }
     }
     else{
-        var time = new Date().getHours();
-        if(time >= 6 && time <= 18){
+        var hour = new Date().getHours();
+        var minute = new Date().getMinutes();
+        var time = hour + "." + minute;
+        if(time >= 5 && time <= 19){
             document.body.classList.remove('dark');
         }
         else{
